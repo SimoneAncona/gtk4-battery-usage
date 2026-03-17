@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import dbus
 import gi
 gi.require_version("Gtk", "4.0")
