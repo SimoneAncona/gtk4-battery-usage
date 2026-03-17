@@ -1,0 +1,7 @@
+[project]
+name = "battery-usage-app"
+version = "0.1.0"
+description = "Battery usage app"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = []
