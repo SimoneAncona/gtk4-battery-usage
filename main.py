@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 
-import dbus
-import gi
+import dbus # type: ignore
+import gi   # type: ignore
 gi.require_version("Gtk", "4.0")
 gi.require_version("Adw", "1")
-from gi.repository import Gtk, Adw, GLib, Gio
+from gi.repository import Gtk, Adw, GLib, Gio # type: ignore
 import math
 
 bus = dbus.SystemBus()
@@ -342,5 +342,5 @@ class MyApp(Adw.Application):
         self.win = MainWindow(application=app)
         self.win.present()
 
-app = MyApp(application_id="it.SimoneAncona.BatteryUsage")
+app = MyApp(application_id="io.github.SimoneAncona.gtk4-battery-usage")
 app.run(None)

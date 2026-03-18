@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-  <id>it.SimoneAncona.BatteryUsage</id>
+  <id>io.github.SimoneAncona.gtk4-battery-usage</id>
 
   <name>Battery Usage</name>
   <summary>Monitor your battery charge history</summary>
@@ -24,7 +24,7 @@
     </ul>
   </description>
 
-  <launchable type="desktop-id">it.SimoneAncona.BatteryUsage.desktop</launchable>
+  <launchable type="desktop-id">io.github.SimoneAncona.gtk4-battery-usage.desktop</launchable>
 
   <url type="homepage">https://github.com/SimoneAncona/battery-usage</url>
   <url type="bugtracker">https://github.com/SimoneAncona/battery-usage/issues</url>
